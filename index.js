@@ -65,12 +65,20 @@ function jambResult(score) {
 
 
   jambResult(200); // "Passed"
+
 console.log(canVote(17)); // "Not eligible"
+
 console.log(gradeStudent("James", 85)); // "Good"
+
 console.log(accessCheck(true, true)); // "Access granted"
+
 evaluateScores([45, 70, 30]); // Logs: Fail, Pass, Fail
+
 console.log(passedBoth(60, 65)); // "Yes"
+
 console.log(canSignup("", "08012345678")); // "Signup allowed"
+
 console.log(validateUser("john", "")); // "Invalid input"
+
 console.log(workStatus(38)); // "Part-time"
 console.log(maxNumber(10, 7)); // 10
